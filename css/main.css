@@ -46,7 +46,7 @@ body {
 }
 
 .header-right {
-    float: right;
+    display: inline-block;
 }
 
 @media screen and (max-width: 500px) {
