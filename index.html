@@ -1,46 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Main</title>
-        <link rel="stylesheet" href="css/main.css">
-        <head>
 
-            <!-- El header -->
-            <body>
-                <div class="header">
-                    <a href="index.html" class="logo">RA 7-8</a>
-                    <div class="header-right">
-                        <a class="active" href="index.html">Inicio</a>
-                        <div class="dropdown">
-                        <button href="tareas.html" class="dropbtn">Tareas
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="#">1. Pros y contras de la tecnología inalambrica</a>
-                            <a href="#">2. Categoría donde se pueden agrupar</a>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-                        <div class="dropdown">
-                        <button href="tareas.html" class="dropbtn">3. Explica:
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="#">3.1 Pros y contras de la tecnología inalambrica</a>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
-                        </div>
-                            <a href="#">4. Tabla comparativa del ámbito de actuación de las diferentes tecnologías inalámbricas</a>
-                            <a href="#">5. Tabla de relación de estándares publicados con el estándar IEEE 802.11 para Wi-Fi</a>
+  <link rel="stylesheet" href="css/main.css">
 
-                            <a href="#">7. Modos de conexión</a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
+  <title>Tutorial</title>
+</head>
 
-                <div style="padding-left:20px">
-                    <h1>Responsive Header</h1>
-                    <p>Resize the browser window to see the effect.</p>
-                    <p>Some content..</p>
-                </div>
-            </body>
+<body>
+
+  <header class="header">
+    <div class="header__content">
+      <a href="#" class="logo">
+        <img class="logo__img" src="img/logo.png" alt="logo">
+      </a>
+  
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item dropdown">
+            <a class="nav__link" href="#">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Company</a>
+          </li>
+          <li class="nav__item dropdown">
+            <a class="nav__link" href="#">Solutions &#x25BE;</a>
+
+            <ul class="dropdown__list">
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link">Solution #1</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link">Solution #2</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link">Solution #3</a>
+              </li>
+
+              <li class="dropdown__item submenu">
+                <a href="#" class="dropdown__link">More solutions &#x25B8;</a>
+
+                <ul class="submenu__list">
+                  <li class="submenu__item">
+                    <a href="#" class="submenu__link">Solution A</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="#" class="submenu__link">Solution B</a>
+                  </li>
+                </ul>
+              </li>
+
+            </ul>
+
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+</body>
+
+</html>
