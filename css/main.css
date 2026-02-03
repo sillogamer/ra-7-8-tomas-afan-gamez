@@ -178,3 +178,15 @@ body {
     width: 100%;
   }
 }
+
+main{
+  color: #ffffff;
+  padding-top: 6em;
+  padding-left: 2em;
+  padding-right: 2em;
+  .text-dir{
+      background-color: #a1a4a7cc;
+      padding: 0.5em;
+      border-radius: 0.2em;
+  }
+}
