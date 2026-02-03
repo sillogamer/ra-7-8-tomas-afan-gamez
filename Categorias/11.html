@@ -2,24 +2,121 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Main</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+            rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
-        <head>
+        <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
 
-            <!-- El header -->
-            <body>
-                <div class="header">
-                    <a href="index.html" class="logo">RA 7-8</a>
-                    <div class="header-right">
-                        <a class="active" href="index.html">Inicio</a>
-                        <a href="tareas.html">Tareas</a>
-                    </div>
-                </div>
+        <title>RA 7-8 Tomás Afán Gámez</title>
+    </head>
 
-                <div style="padding-left:20px">
-                    <h1>Responsive Header</h1>
-                    <p>Resize the browser window to see the effect.</p>
-                    <p>Some content..</p>
-                </div>
-            </body>
+    <body>
+
+        <header class="header">
+            <div class="header__content">
+                <a href="index.html" class="logo">
+                    <img class="logo__img" src="img/logo.png" alt="logo">
+                </a>
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item dropdown">
+                            <a class="nav__link" href="#">Inicio &#x25BE;</a>
+
+                            <ul class="dropdown__list">
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">1. Pros y contras de la tecnología inalámbrica frente a las cableadas.</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">2. Categoría donde se pueden agrupar.</a>
+                                </li>
+                                <li class="dropdown__item submenu">
+                                    <a href="#" class="dropdown__link">3. Explica: &#x25B8;</a>
+
+                                    <ul class="submenu__list">
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">1. Las redes inalámbricas personales</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">2. Las redes Wi-Fi</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">3. Las redes de área metropolitana<br>inalámbrica</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">4. Redes de área de área ancha inalámbrica</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">4. Tabla diferentes tecnologías inalambricas</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">5. Tabla estándar IEEE 802.11 para Wi-Fi</a>
+                                </li>
+                                <li class="dropdown__item submenu">
+                                    <a href="#" class="dropdown__link">6. Elementos inalámbricos &#x25B8;</a>
+
+                                    <ul class="submenu__list">
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">1. Antenas</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">2. Adaptadores inalámbricos</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">3. Puntos de Acceso</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">4. Puentes inalámbricos</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">5. Routers inalámbricos</a>
+                                        </li>
+                                    </ul>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">7. Modos de conexión</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">8. Identificadores de servicio</a>
+                                </li>
+
+                                <li class="dropdown__item submenu">
+                                    <a href="#" class="dropdown__link">9. Seguridad en redes inalámbricas &#x25B8;</a>
+
+                                    <ul class="submenu__list">
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">1. Acceso a sistemas abiertos sin seguridad</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">2. WEP</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">3. Acceso protegido WPA/WPA2</a>
+                                        </li>
+                                    </ul>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">10. Direcciones MAC</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">11. Filtrado de tráfico</a>
+                                </li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+    </body>
+
+</html>
