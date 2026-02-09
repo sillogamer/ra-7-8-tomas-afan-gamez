@@ -188,9 +188,14 @@ main{
       background-color: #a1a4a7cc;
       padding: 0.5em;
       border-radius: 0.2em;
-      img{
+      .below-title{
+        margin-left: 2em;
+        img{
         border-radius: 2em;
         width: 400px;
+        margin-left: 2em;
       }
+      }
+      
   }
 }
