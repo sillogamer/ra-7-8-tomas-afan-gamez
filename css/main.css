@@ -214,3 +214,7 @@ table, th, td {
   border: 1px solid #ffffff;
   padding: 3px;
 }
+
+h2{
+  margin-top: 1em;
+}
